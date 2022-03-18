@@ -1,4 +1,4 @@
-# ✨ SpamProtectionRobot ✨
+# ✨ KingSpamRobot ✨
 ### Anti Spam/NSFW Telegram Bot Written In Python With Pyrogram.
 
 
@@ -6,7 +6,7 @@
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/TheHamkerCat/)
 
 
-<img src="https://hamker.me/logo_3.png" width="300" align="right">
+<img src="https://telegra.ph/file/b5de47f54966e98039073.jpg" width="300" align="right">
 
 
 ## Requirements
@@ -17,7 +17,7 @@
 ## Install Locally Or On A VPS
 
 ```sh
-$ git clone https://github.com/thehamkercat/SpamProtectionRobot
+$ git clone https://github.com/Sunmusicking/SpamProtectionRobot
 
 $ cd SpamProtectionRobot
 
@@ -34,12 +34,12 @@ $ python3 -m spr
 
 # Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/thehamkercat/SpamProtectionRobot/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sunmusicking/SpamProtectionRobot)
 
 # Docker
 
 ```sh
-$ git clone https://github.com/TheHamkerCat/SpamProtectionRobot
+$ git clone https://github.com/Sunmusicking/SpamProtectionRobot
 
 $ cd SpamProtectionRobot
 ```
