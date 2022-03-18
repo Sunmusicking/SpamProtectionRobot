@@ -48,16 +48,17 @@ async def help_command(_, message: Message):
         return await message.reply("Pm Me For Help", reply_markup=kb)
     kb = ikb(
         {
-            "Help": "bot_commands",
-            "Repo": "https://github.com/TheHamkerCat/SpamProtectionRobot",
-            "Add Me To Your Group": f"https://t.me/{BOT_USERNAME}?startgroup=new",
-            "Support Chat (for now)": "https://t.me/WBBSupport",
+            "🚨𝗛𝗘𝗟𝗣🚨": "bot_commands",
+            "🔞𝗨𝗣𝗗𝗔𝗧𝗘🔞": "https://t.me/KingSpamLogs",
+            "👥𝗔𝗗𝗗 𝗚𝗥𝗢𝗨𝗣👥": f"https://t.me/{BOT_USERNAME}?startgroup=new",
+            "⭕️𝗦𝗨𝗣𝗣𝗢𝗥𝗧⭕️": "https://t.me/TAMIL_CHATBOX",
+            "👑𝗢𝗪𝗡𝗘𝗥👑": "https://t.me/KING_0F_CB",
         }
     )
     mention = message.from_user.mention
     await message.reply_photo(
-        "https://hamker.me/logo_3.png",
-        caption=f"Hi {mention}, I'm SpamProtectionRobot,"
+        "https://telegra.ph/file/4f6363df023a2d1b4d7ff.jpg",
+        caption=f"Hi {mention}, I'm 𝗞𝗜𝗡𝗚 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧🔞,"
         + " Choose An Option From Below.",
         reply_markup=kb,
     )
@@ -83,7 +84,7 @@ async def help_parser(name, keyboard=None):
             paginate_modules(0, HELPABLE, "help")
         )
     return (
-        f"Hello {name}, I'm SpamProtectionRobot, I can protect "
+        f"Hello {name}, 𝗞𝗜𝗡𝗚 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧🔞, I can protect "
         + "your group from Spam and NSFW media using "
         + "machine learning. Choose an option from below.",
         keyboard,
@@ -99,7 +100,7 @@ async def help_button(client, query: CallbackQuery):
     create_match = re.match(r"help_create", query.data)
     u = query.from_user.mention
     top_text = (
-        f"Hello {u}, I'm SpamProtectionRobot, I can protect "
+        f"Hello {u}, I'm 𝗞𝗜𝗡𝗚 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧🔞, I can protect "
         + "your group from Spam and NSFW media using "
         + "machine learning. Choose an option from below."
     )
